@@ -3,6 +3,8 @@ import { useState } from 'react';
 import { Box, Text, VStack, Link, Icon, IconButton, Drawer, DrawerOverlay, DrawerContent, DrawerCloseButton, DrawerHeader, DrawerBody, useDisclosure, useBreakpointValue, Spacer, InputGroup, InputLeftElement, Input } from '@chakra-ui/react';
 import { chakra } from '@chakra-ui/react';
 import { FaBars, FaTimes, FaSearch, FaBell, FaCog, FaUser, FaQuestionCircle, FaBuilding, FaChartPie, FaExchangeAlt, FaHistory, FaWallet } from 'react-icons/fa';
+import CryptoPrices from '../CryptoPrices/CryptoPrices';
+import PopulationGraph from '../PopulationGraph/PopulationGraph';
 const ColoredText = chakra('span');
 
 const Sidenavbar = () => {
@@ -19,13 +21,13 @@ const Sidenavbar = () => {
                     top="0"
                     h="100vh"
                     w="250px"
-                    bg="gray.800"
+                    bg="#1a1e1c"
                     color="white"
                     p="4"
                     boxShadow="md"
                 >
                     <VStack spacing="5" align="flex-start">
-                        <Text fontSize="lg" fontWeight="bold">Carbon <ColoredText color="green">Cell</ColoredText></Text>
+                        <Text fontSize="lg" fontWeight="bold">Carbon <ColoredText color="#226723">Cell</ColoredText></Text>
                         <InputGroup>
                             <InputLeftElement
                                 pointerEvents="none"
@@ -36,7 +38,7 @@ const Sidenavbar = () => {
                         <VStack spacing="5" align="flex-start">
                             <Link
                             onClick={() => setActiveLink("Dashboard")} // Set active link on click
-                            color={activeLink === "Dashboard" ? "green" : "#ffffff"} // Set color based on active link
+                            color={activeLink === "Dashboard" ? "#226723" : "#ffffff"} // Set color based on active link
                             >
                                 <Icon as={FaBars} mr="2" />
                                 Dashboard
@@ -45,11 +47,11 @@ const Sidenavbar = () => {
                                 <Icon as={FaBuilding} mr="2" />
                                 Organisation
                             </Link>
-                            <Link>
+                            <Link to= '/cryptoprices' path ={<CryptoPrices/>}>
                                 <Icon as={FaChartPie} mr="2" />
                                 Assets
                             </Link>
-                            <Link>
+                            <Link to ='/populationgraph' path = {<PopulationGraph/>}>
                                 <Icon as={FaExchangeAlt} mr="2" />
                                 Trade
                             </Link>
@@ -122,19 +124,19 @@ const Sidenavbar = () => {
                     top="0"
                     h="100vh"
                     w="250px"
-                    bg="gray.800"
+                    bg="#1a1e1c"
                     color="white"
                     p="4"
                     boxShadow="md"
                 >
                     <DrawerCloseButton />
                     <DrawerHeader>
-                        <Text fontSize="lg" fontWeight="bold">Carbon <ColoredText color="green">Cell</ColoredText></Text>
+                        <Text fontSize="lg" fontWeight="bold">Carbon <ColoredText color="#226723">Cell</ColoredText></Text>
                     </DrawerHeader>
                     <DrawerBody>
                         <VStack spacing="5" align="flex-start">
                             <Link   onClick={() => setActiveLink("Dashboard")} 
-                             color={activeLink === "Dashboard" ? "green" : "#ffffff"} 
+                             color={activeLink === "Dashboard" ? "#226723" : "#ffffff"} 
                              >
                                 <Icon as={FaBars} mr="2" />
                                 Dashboard
