@@ -98,3 +98,11 @@ crypto-trading-dashboard/
 
 
 - Desktop View 
+
+![https://github.com/Sakuu89/Pioneer-Stock-App/blob/master/screenshots/img1.png?raw=true](https://github.com/Sakuu89/Pioneer-Stock-App/blob/master/screenshots/img1.png?raw=true)
+
+![https://github.com/Sakuu89/Pioneer-Stock-App/blob/master/screenshots/img2.png?raw=true](https://github.com/Sakuu89/Pioneer-Stock-App/blob/master/screenshots/img2.png?raw=true)
+
+-Smaller Screens
+
+![https://github.com/Sakuu89/Pioneer-Stock-App/blob/master/screenshots/img3.png?raw=true](https://github.com/Sakuu89/Pioneer-Stock-App/blob/master/screenshots/img3.png?raw=true)
