@@ -1,5 +1,5 @@
 
-# Crypto Trading Dashboard
+# Trading Stock App
 
 This project is a web application for a crypto trading dashboard built using React and Chakra UI.
 
@@ -20,7 +20,7 @@ Also, You can check the video demo - [Live Demo](https://drive.google.com/file/d
 
 ## Overview
 
-The Crypto Trading Dashboard lets users view cryptocurrency prices, monitor population graphs, and trade assets. It includes a sidebar navigation component and various UI elements styled using Chakra UI.
+The Trading Stock Dashboard lets users view cryptocurrency prices, monitor population graphs, and trade assets. It includes a sidebar navigation component and various UI elements styled using Chakra UI.
 
 ## Features
 
