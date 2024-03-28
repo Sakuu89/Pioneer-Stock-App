@@ -2,7 +2,10 @@
 # Crypto Trading Dashboard
 
 This project is a web application for a crypto trading dashboard built using React and Chakra UI.
+
 You can check the live demo here - https://pioneer-stock-app.vercel.app/
+
+Also, You can check the video demo - [Live Demo](https://drive.google.com/file/d/1Tm6JWJtxuNbcuEvEgZcYkwqngwruCMUJ/view?usp=sharing)
 
 ## Table of Contents
 
